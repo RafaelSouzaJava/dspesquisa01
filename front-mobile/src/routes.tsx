@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 const Stack = createStackNavigator();
 import Home from './pages/Home';
+import CreateRecord from './pages/CreateRecord';
 
 const Routes = () => {
     return (
@@ -16,6 +17,7 @@ const Routes = () => {
                 }
             }}>
                 <Stack.Screen name="Home" component={Home} />
+                <Stack.Screen name="CreateRecord" component={CreateRecord} />
             </Stack.Navigator>
 
         </NavigationContainer>
