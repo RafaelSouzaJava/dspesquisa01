@@ -9,7 +9,7 @@ import axios from 'axios';
 import { RectButton } from 'react-native-gesture-handler';
 
 
-const BASE_URL = 'http://192.168.1.105:8080';
+const BASE_URL = 'https://consulta-game.herokuapp.com';
 
 const mapSelectValues = (games: Game[]) => {
     return games.map(game => ({
@@ -55,7 +55,7 @@ const CreateRecord = () => {
         axios.get(`${BASE_URL}/games`)
         .then(response => {
             const selectValue = mapSelectValues(response.data);
-            console.log(selectValue);
+            
             setAllGames(selectValue);
         })
         .catch(() => Alert.alert('Erro ao listar os jogos!'))

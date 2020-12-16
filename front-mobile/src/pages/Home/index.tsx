@@ -54,13 +54,13 @@ const styles = StyleSheet.create({
         color: '#00D4FF',
         fontSize: 36,
         fontWeight: 'bold',
-        marginTop: 31,
+        marginTop: 20,
         fontFamily: "Play_700Bold",
     },
     subTitle: {
         color: '#ED7947',
         fontSize: 21,
-        marginTop: 15,
+        marginTop: -10,
         fontFamily: "Play_400Regular",
     },
     footer: {

@@ -17,7 +17,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rafael.dragongamepesquisa"
+    },
+    "android": {
+      "package": "com.rafael.dragongamepesquisa"
     },
     "web": {
       "favicon": "./assets/favicon.png"
